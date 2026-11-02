@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Plain-English guides to crypto security.">
+  <title>Security Library — CryptoGuard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <a class="wordmark" href="index.html"><span class="mark">cg.</span> CryptoGuard</a>
+  <nav class="simple-nav"><a href="index.html">← Back to home</a></nav>
+</header>
+<main class="wrap library">
+  <p class="kicker">THE CRYPTOGUARD LIBRARY</p>
+  <h1 class="library-title">A little more knowledge<br><em>goes a long way.</em></h1>
+  <p class="library-lead">Short, practical explainers for people finding their way around crypto. Start with any topic. Come back whenever you need a refresher.</p>
+
+  <article class="guide" id="recovery">
+    <div class="guide-meta"><span>01 / THE BASICS</span><span>5 MIN READ</span></div>
+    <h2>Your recovery phrase is not a password to share.</h2>
+    <p>A recovery phrase can give someone control over a crypto wallet. Treat it like the most sensitive key to that wallet: keep it private and never send it to a person, website or support agent.</p>
+    <h3>Keep this in mind</h3>
+    <ul><li>Do not type your phrase into a website because a message tells you to.</li><li>Do not share it with someone claiming they need it to fix a problem.</li><li>Be cautious of screenshots, cloud notes and messages that could expose it.</li></ul>
+    <p class="takeaway"><strong>The simple rule:</strong> anyone asking you to reveal your recovery phrase should be treated as untrusted.</p>
+  </article>
+
+  <article class="guide" id="phishing">
+    <div class="guide-meta"><span>02 / SCAM AWARENESS</span><span>4 MIN READ</span></div>
+    <h2>That message from “support” may not be support.</h2>
+    <p>Scammers sometimes pretend to work for an exchange, wallet provider or project. They may contact you after you post a question publicly, then try to move the conversation into private messages.</p>
+    <h3>Pause when a message</h3>
+    <ul><li>Arrives unexpectedly and claims your account is in danger.</li><li>Pressures you to act immediately or keep the conversation secret.</li><li>Asks for passwords, one-time codes, private keys or recovery phrases.</li><li>Sends a link and tells you to sign in to solve an urgent issue.</li></ul>
+    <p class="takeaway"><strong>A safer habit:</strong> close the message and contact the company using contact details from its official website or app that you navigate to yourself.</p>
+  </article>
+
+  <article class="guide" id="approvals">
+    <div class="guide-meta"><span>03 / WALLET SAFETY</span><span>6 MIN READ</span></div>
+    <h2>Before you approve a wallet transaction.</h2>
+    <p>A wallet prompt is not just a button to get past. Depending on the action, you may be authorizing a transfer or granting an application permission to interact with certain tokens.</p>
+    <h3>Take a moment to check</h3>
+    <ul><li>Do you recognize the website or application?</li><li>Do you understand what the wallet says you are approving?</li><li>Does the requested action match what you intended to do?</li><li>Can you verify the request using the project's official documentation?</li></ul>
+    <p class="takeaway"><strong>If it is unclear,</strong> do not approve it just to make the warning disappear. Seek help from a trusted, independently verified source.</p>
+  </article>
+
+  <section class="quiz-block">
+    <p class="kicker">QUICK KNOWLEDGE CHECK</p><h2>One question before you go.</h2>
+    <p>Someone claiming to be wallet support asks you to send your recovery phrase. What is the safest response?</p>
+    <div class="answers" id="answers">
+      <button data-correct="false">Send it so they can check the wallet.</button>
+      <button data-correct="true">Do not share it. Verify the request independently.</button>
+      <button data-correct="false">Send only the first few words.</button>
+    </div>
+    <p id="quizResult" class="quiz-result" aria-live="polite"></p>
+  </section>
+
+  <section class="check-section" id="checklist">
+    <p class="kicker">A PERSONAL CHECK-IN</p><h2>Habits worth building.</h2>
+    <p>Tick the statements that are already part of your routine. This checklist stays in this browser on this device.</p>
+    <div class="checklist">
+      <label><input type="checkbox"> I keep my recovery phrase and private keys private.</label>
+      <label><input type="checkbox"> I use unique passwords for important accounts.</label>
+      <label><input type="checkbox"> I use multi-factor authentication where available.</label>
+      <label><input type="checkbox"> I check links and contact companies through official channels.</label>
+      <label><input type="checkbox"> I read wallet prompts before approving them.</label>
+    </div>
+    <p class="check-progress" id="checkProgress">0 of 5 habits selected</p>
+  </section>
+</main>
+<footer class="footer wrap">
+  <a class="wordmark" href="index.html"><span class="mark">cg.</span> CryptoGuard</a>
+  <p>Keep learning. Stay curious.</p>
+  <small>Educational information only. This checklist is not a security audit and cannot guarantee that an account or wallet is safe.</small>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
